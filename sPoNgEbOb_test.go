@@ -2,15 +2,13 @@ package main
 
 import "os"
 
-// lol tests?
-
-func ExampleLowerCase() {
+func ExampleMain_lowercase() {
 	os.Args = []string{"spongebob", "lower", "case", "test"}
 	main()
 	// Output: lOwEr cAsE TeSt
 }
 
-func ExampleUpperCase() {
+func ExampleMain_uppercase() {
 	os.Args = []string{"spongebob", "UPPER", "CASE", "TEST"}
 	main()
 	// Output: lOwEr cAsE TeSt
