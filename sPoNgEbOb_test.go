@@ -11,5 +11,5 @@ func ExampleMain_lowercase() {
 func ExampleMain_uppercase() {
 	os.Args = []string{"spongebob", "UPPER", "CASE", "TEST"}
 	main()
-	// Output: lOwEr cAsE TeSt
+	// Output: uPpEr cAsE TeSt
 }
